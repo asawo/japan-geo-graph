@@ -1,11 +1,12 @@
 import 'mapbox-gl/dist/mapbox-gl.css'
-import { GeoJSON } from 'geojson'
 import styles from '../styles/MapBox.module.css'
+import { Graph } from './Graph'
+import { GeoJSON } from 'geojson'
+import { PrefectureLayer } from './PrefectureLayer'
 import Prefectures from '../assets/jp_prefs.json'
 import Map, { Source, Layer, MapLayerMouseEvent } from 'react-map-gl'
-import { useCallback, useState } from 'react'
-import { PrefectureLayer } from './PrefectureLayer'
-import { Graph } from './Graph'
+import { useCallback, useState, FC } from 'react'
+import { GraphData, Prefecture } from '../pages'
 
 const DEFAULT_LAT = 35.6809591
 const DEFAULT_LNG = 139.7673068
@@ -16,11 +17,14 @@ type HoverInfo = {
   y: number
 }
 
-export const MapBox = () => {
+type MapProps = {
+  graphData: GraphData[]
+}
+
+export const MapBox: FC<MapProps> = ({ graphData }) => {
   const [hoverInfo, setHoverInfo] = useState<HoverInfo>()
 
   const onHover = useCallback((event: MapLayerMouseEvent) => {
-    console.log({ event })
     const {
       features,
       point: { x, y },
@@ -52,6 +56,7 @@ export const MapBox = () => {
         {hoverInfo && hoverInfo.feature && hoverInfo.feature.properties && (
           <Graph
             prefecture={hoverInfo.feature.properties.name}
+            data={graphData[hoverInfo.feature.properties.id - 1]}
             x={hoverInfo.x}
             y={hoverInfo.y}
           />

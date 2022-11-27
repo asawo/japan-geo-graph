@@ -6,11 +6,12 @@
 
 .tooltip {
     position: absolute;
+    text-align: center;
     margin: 8px;
-    padding: 4px;
-    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    background: rgba(51, 48, 48, 0.587);
     color: #fff;
-    max-width: 300px;
+    width: 600px;
     font-size: 10px;
     z-index: 9;
     pointer-events: none;

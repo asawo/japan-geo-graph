@@ -597,8 +597,8 @@
           ]
         ]
       },
-      "properties": { "id": 1, "name": "Aichi", "label": "愛知県" },
-      "id": 1
+      "properties": { "id": 23, "name": "Aichi", "label": "愛知県" },
+      "id": 23
     },
     {
       "type": "Feature",
@@ -1230,8 +1230,8 @@
           ]
         ]
       },
-      "properties": { "id": 2, "name": "Akita", "label": "秋田県" },
-      "id": 2
+      "properties": { "id": 5, "name": "Akita", "label": "秋田県" },
+      "id": 5
     },
     {
       "type": "Feature",
@@ -2007,8 +2007,8 @@
           ]
         ]
       },
-      "properties": { "id": 3, "name": "Aomori", "label": "青森県" },
-      "id": 3
+      "properties": { "id": 2, "name": "Aomori", "label": "青森県" },
+      "id": 2
     },
     {
       "type": "Feature",
@@ -2497,8 +2497,8 @@
           ]
         ]
       },
-      "properties": { "id": 4, "name": "Chiba", "label": "千葉県" },
-      "id": 4
+      "properties": { "id": 12, "name": "Chiba", "label": "千葉県" },
+      "id": 12
     },
     {
       "type": "Feature",
@@ -4044,8 +4044,8 @@
           ]
         ]
       },
-      "properties": { "id": 5, "name": "Ehime", "label": "愛媛県" },
-      "id": 5
+      "properties": { "id": 38, "name": "Ehime", "label": "愛媛県" },
+      "id": 38
     },
     {
       "type": "Feature",
@@ -4616,8 +4616,8 @@
           ]
         ]
       },
-      "properties": { "id": 6, "name": "Fukui", "label": "福井県" },
-      "id": 6
+      "properties": { "id": 18, "name": "Fukui", "label": "福井県" },
+      "id": 18
     },
     {
       "type": "Feature",
@@ -5306,8 +5306,8 @@
           ]
         ]
       },
-      "properties": { "id": 7, "name": "Fukuoka", "label": "福岡県" },
-      "id": 7
+      "properties": { "id": 40, "name": "Fukuoka", "label": "福岡県" },
+      "id": 40
     },
     {
       "type": "Feature",
@@ -5859,8 +5859,8 @@
           ]
         ]
       },
-      "properties": { "id": 8, "name": "Fukushima", "label": "福島県" },
-      "id": 8
+      "properties": { "id": 7, "name": "Fukushima", "label": "福島県" },
+      "id": 7
     },
     {
       "type": "Feature",
@@ -6347,8 +6347,8 @@
           ]
         ]
       },
-      "properties": { "id": 9, "name": "Gifu", "label": "岐阜県" },
-      "id": 9
+      "properties": { "id": 21, "name": "Gifu", "label": "岐阜県" },
+      "id": 21
     },
     {
       "type": "Feature",
@@ -7967,8 +7967,8 @@
           ]
         ]
       },
-      "properties": { "id": 11, "name": "Hiroshima", "label": "広島県" },
-      "id": 11
+      "properties": { "id": 34, "name": "Hiroshima", "label": "広島県" },
+      "id": 34
     },
     {
       "type": "Feature",
@@ -10614,8 +10614,8 @@
           ]
         ]
       },
-      "properties": { "id": 12, "name": "Hokkaido", "label": "北海道" },
-      "id": 12
+      "properties": { "id": 1, "name": "Hokkaido", "label": "北海道" },
+      "id": 1
     },
     {
       "type": "Feature",
@@ -11425,8 +11425,8 @@
           ]
         ]
       },
-      "properties": { "id": 13, "name": "Hyogo", "label": "兵庫県" },
-      "id": 13
+      "properties": { "id": 28, "name": "Hyogo", "label": "兵庫県" },
+      "id": 28
     },
     {
       "type": "Feature",
@@ -11794,8 +11794,8 @@
           ]
         ]
       },
-      "properties": { "id": 14, "name": "Ibaraki", "label": "茨城県" },
-      "id": 14
+      "properties": { "id": 8, "name": "Ibaraki", "label": "茨城県" },
+      "id": 8
     },
     {
       "type": "Feature",
@@ -12391,8 +12391,8 @@
           ]
         ]
       },
-      "properties": { "id": 15, "name": "Ishikawa", "label": "石川県" },
-      "id": 15
+      "properties": { "id": 17, "name": "Ishikawa", "label": "石川県" },
+      "id": 17
     },
     {
       "type": "Feature",
@@ -13169,8 +13169,8 @@
           ]
         ]
       },
-      "properties": { "id": 16, "name": "Iwate", "label": "岩手県" },
-      "id": 16
+      "properties": { "id": 3, "name": "Iwate", "label": "岩手県" },
+      "id": 3
     },
     {
       "type": "Feature",
@@ -13686,8 +13686,8 @@
           ]
         ]
       },
-      "properties": { "id": 17, "name": "Kagawa", "label": "香川県" },
-      "id": 17
+      "properties": { "id": 37, "name": "Kagawa", "label": "香川県" },
+      "id": 37
     },
     {
       "type": "Feature",
@@ -16237,8 +16237,8 @@
           ]
         ]
       },
-      "properties": { "id": 18, "name": "Kagoshima", "label": "鹿児島県" },
-      "id": 18
+      "properties": { "id": 46, "name": "Kagoshima", "label": "鹿児島県" },
+      "id": 46
     },
     {
       "type": "Feature",
@@ -16676,8 +16676,8 @@
           ]
         ]
       },
-      "properties": { "id": 19, "name": "Kanagawa", "label": "神奈川県" },
-      "id": 19
+      "properties": { "id": 14, "name": "Kanagawa", "label": "神奈川県" },
+      "id": 14
     },
     {
       "type": "Feature",
@@ -17455,8 +17455,8 @@
           ]
         ]
       },
-      "properties": { "id": 20, "name": "Kochi", "label": "高知県" },
-      "id": 20
+      "properties": { "id": 39, "name": "Kochi", "label": "高知県" },
+      "id": 39
     },
     {
       "type": "Feature",
@@ -18660,8 +18660,8 @@
           ]
         ]
       },
-      "properties": { "id": 21, "name": "Kumamoto", "label": "熊本県" },
-      "id": 21
+      "properties": { "id": 43, "name": "Kumamoto", "label": "熊本県" },
+      "id": 43
     },
     {
       "type": "Feature",
@@ -19161,8 +19161,8 @@
           ]
         ]
       },
-      "properties": { "id": 22, "name": "Kyoto", "label": "京都府" },
-      "id": 22
+      "properties": { "id": 26, "name": "Kyoto", "label": "京都府" },
+      "id": 26
     },
     {
       "type": "Feature",
@@ -20072,8 +20072,8 @@
           ]
         ]
       },
-      "properties": { "id": 23, "name": "Mie", "label": "三重県" },
-      "id": 23
+      "properties": { "id": 24, "name": "Mie", "label": "三重県" },
+      "id": 24
     },
     {
       "type": "Feature",
@@ -20937,8 +20937,8 @@
           ]
         ]
       },
-      "properties": { "id": 24, "name": "Miyagi", "label": "宮城県" },
-      "id": 24
+      "properties": { "id": 4, "name": "Miyagi", "label": "宮城県" },
+      "id": 4
     },
     {
       "type": "Feature",
@@ -21545,8 +21545,8 @@
           ]
         ]
       },
-      "properties": { "id": 25, "name": "Miyazaki", "label": "宮崎県" },
-      "id": 25
+      "properties": { "id": 45, "name": "Miyazaki", "label": "宮崎県" },
+      "id": 45
     },
     {
       "type": "Feature",
@@ -22125,8 +22125,8 @@
           ]
         ]
       },
-      "properties": { "id": 26, "name": "Nagano", "label": "長野県" },
-      "id": 26
+      "properties": { "id": 20, "name": "Nagano", "label": "長野県" },
+      "id": 20
     },
     {
       "type": "Feature",
@@ -25068,8 +25068,8 @@
           ]
         ]
       },
-      "properties": { "id": 27, "name": "Naoasaki", "label": "長崎県" },
-      "id": 27
+      "properties": { "id": 42, "name": "Nagasaki", "label": "長崎県" },
+      "id": 42
     },
     {
       "type": "Feature",
@@ -25336,8 +25336,8 @@
           ]
         ]
       },
-      "properties": { "id": 28, "name": "Nara", "label": "奈良県" },
-      "id": 28
+      "properties": { "id": 29, "name": "Nara", "label": "奈良県" },
+      "id": 29
     },
     {
       "type": "Feature",
@@ -26225,8 +26225,8 @@
           ]
         ]
       },
-      "properties": { "id": 29, "name": "Niigata", "label": "新潟県" },
-      "id": 29
+      "properties": { "id": 15, "name": "Niigata", "label": "新潟県" },
+      "id": 15
     },
     {
       "type": "Feature",
@@ -27049,8 +27049,8 @@
           ]
         ]
       },
-      "properties": { "id": 30, "name": "Oita", "label": "大分県" },
-      "id": 30
+      "properties": { "id": 44, "name": "Oita", "label": "大分県" },
+      "id": 44
     },
     {
       "type": "Feature",
@@ -28039,8 +28039,8 @@
           ]
         ]
       },
-      "properties": { "id": 31, "name": "Okayama", "label": "岡山県" },
-      "id": 31
+      "properties": { "id": 33, "name": "Okayama", "label": "岡山県" },
+      "id": 33
     },
     {
       "type": "Feature",
@@ -29830,8 +29830,8 @@
           ]
         ]
       },
-      "properties": { "id": 32, "name": "Okinawa", "label": "沖縄県" },
-      "id": 32
+      "properties": { "id": 47, "name": "Okinawa", "label": "沖縄県" },
+      "id": 47
     },
     {
       "type": "Feature",
@@ -30238,8 +30238,8 @@
           ]
         ]
       },
-      "properties": { "id": 33, "name": "Osaka", "label": "大阪府" },
-      "id": 33
+      "properties": { "id": 27, "name": "Osaka", "label": "大阪府" },
+      "id": 27
     },
     {
       "type": "Feature",
@@ -30648,8 +30648,8 @@
           ]
         ]
       },
-      "properties": { "id": 34, "name": "Saga", "label": "佐賀県" },
-      "id": 34
+      "properties": { "id": 41, "name": "Saga", "label": "佐賀県" },
+      "id": 41
     },
     {
       "type": "Feature",
@@ -30875,8 +30875,8 @@
           ]
         ]
       },
-      "properties": { "id": 35, "name": "Saitama", "label": "埼玉県" },
-      "id": 35
+      "properties": { "id": 11, "name": "Saitama", "label": "埼玉県" },
+      "id": 11
     },
     {
       "type": "Feature",
@@ -31138,8 +31138,8 @@
           ]
         ]
       },
-      "properties": { "id": 36, "name": "Shiga", "label": "滋賀県" },
-      "id": 36
+      "properties": { "id": 25, "name": "Shiga", "label": "滋賀県" },
+      "id": 25
     },
     {
       "type": "Feature",
@@ -32073,8 +32073,8 @@
           ]
         ]
       },
-      "properties": { "id": 37, "name": "Shimane", "label": "島根県" },
-      "id": 37
+      "properties": { "id": 32, "name": "Shimane", "label": "島根県" },
+      "id": 32
     },
     {
       "type": "Feature",
@@ -33312,8 +33312,8 @@
           ]
         ]
       },
-      "properties": { "id": 38, "name": "Shizuoka", "label": "静岡県" },
-      "id": 38
+      "properties": { "id": 22, "name": "Shizuoka", "label": "静岡県" },
+      "id": 22
     },
     {
       "type": "Feature",
@@ -33595,8 +33595,8 @@
           ]
         ]
       },
-      "properties": { "id": 39, "name": "Tochigi", "label": "栃木県" },
-      "id": 39
+      "properties": { "id": 9, "name": "Tochigi", "label": "栃木県" },
+      "id": 9
     },
     {
       "type": "Feature",
@@ -34075,8 +34075,8 @@
           ]
         ]
       },
-      "properties": { "id": 40, "name": "Tokushima", "label": "徳島県" },
-      "id": 40
+      "properties": { "id": 36, "name": "Tokushima", "label": "徳島県" },
+      "id": 36
     },
     {
       "type": "Feature",
@@ -34458,8 +34458,8 @@
           ]
         ]
       },
-      "properties": { "id": 41, "name": "Tokyo", "label": "東京都" },
-      "id": 41
+      "properties": { "id": 13, "name": "Tokyo", "label": "東京都" },
+      "id": 13
     },
     {
       "type": "Feature",
@@ -34788,8 +34788,8 @@
           ]
         ]
       },
-      "properties": { "id": 42, "name": "Tottori", "label": "鳥取県" },
-      "id": 42
+      "properties": { "id": 31, "name": "Tottori", "label": "鳥取県" },
+      "id": 31
     },
     {
       "type": "Feature",
@@ -35094,8 +35094,8 @@
           ]
         ]
       },
-      "properties": { "id": 43, "name": "Toyama", "label": "富山県" },
-      "id": 43
+      "properties": { "id": 16, "name": "Toyama", "label": "富山県" },
+      "id": 16
     },
     {
       "type": "Feature",
@@ -35686,8 +35686,8 @@
           ]
         ]
       },
-      "properties": { "id": 44, "name": "Wakayama", "label": "和歌山県" },
-      "id": 44
+      "properties": { "id": 30, "name": "Wakayama", "label": "和歌山県" },
+      "id": 30
     },
     {
       "type": "Feature",
@@ -36092,8 +36092,8 @@
           ]
         ]
       },
-      "properties": { "id": 45, "name": "Yamagata", "label": "山形県" },
-      "id": 45
+      "properties": { "id": 6, "name": "Yamagata", "label": "山形県" },
+      "id": 6
     },
     {
       "type": "Feature",
@@ -37572,8 +37572,8 @@
           ]
         ]
       },
-      "properties": { "id": 46, "name": "Yamaguchi", "label": "山口県" },
-      "id": 46
+      "properties": { "id": 35, "name": "Yamaguchi", "label": "山口県" },
+      "id": 35
     },
     {
       "type": "Feature",
@@ -37829,8 +37829,8 @@
           ]
         ]
       },
-      "properties": { "id": 47, "name": "Yamanashi", "label": "山梨県" },
-      "id": 47
+      "properties": { "id": 19, "name": "Yamanashi", "label": "山梨県" },
+      "id": 19
     }
   ]
 }
