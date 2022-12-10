@@ -1,6 +1,6 @@
 import 'mapbox-gl/dist/mapbox-gl.css'
 import styles from '../styles/MapBox.module.css'
-import { Graph } from './Graph'
+import { Graph } from './Tooltip'
 import { GeoJSON } from 'geojson'
 import { PrefectureLayer } from './PrefectureLayer'
 import Prefectures from '../assets/jp_prefs.json'
