@@ -4,12 +4,12 @@ import { Graph } from './Graph'
 import { GeoJSON } from 'geojson'
 import { PrefectureLayer } from './PrefectureLayer'
 import Prefectures from '../assets/jp_prefs.json'
-import Map, { Source, Layer, MapLayerMouseEvent } from 'react-map-gl'
+import { Map, Source, Layer, MapLayerMouseEvent } from 'react-map-gl'
 import { useCallback, useState, FC } from 'react'
-import { GraphData, Prefecture } from '../pages'
+import { GraphData } from '../pages'
 
-const DEFAULT_LAT = 35.6809591
-const DEFAULT_LNG = 139.7673068
+const DEFAULT_LAT = 40
+const DEFAULT_LNG = 137
 
 type HoverInfo = {
   feature: mapboxgl.MapboxGeoJSONFeature
@@ -43,7 +43,7 @@ export const MapBox: FC<MapProps> = ({ graphData }) => {
         initialViewState={{
           latitude: DEFAULT_LAT,
           longitude: DEFAULT_LNG,
-          zoom: 5,
+          zoom: 3.7,
         }}
         mapStyle="mapbox://styles/asawo/claol2aur000514lcxyjf9az5"
         mapboxAccessToken={process.env.NEXT_PUBLIC_MAPBOX_API_KEY}

@@ -10,25 +10,34 @@ import {
   Tooltip,
   Legend,
 } from 'chart.js'
-
+import { FC, useEffect, useState } from 'react'
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend)
 
 type GraphProps = { data: GraphData; prefecture: string; x: number; y: number }
 
-export const Graph = ({ data, prefecture, x, y }: GraphProps) => {
+export const Graph: FC<GraphProps> = ({ data, prefecture, x, y }) => {
+  const [matches, setMatches] = useState(false)
+  const style = matches
+    ? { left: x, top: y, minWidth: '500px' }
+    : { width: '96%' }
+
+  useEffect(() => {
+    window
+      .matchMedia('(min-width: 800px)')
+      .addEventListener('change', (e) => setMatches(e.matches))
+  }, [])
+
+  useEffect(() => {
+    console.log({ matches })
+  }, [matches])
+
   if (!data) {
     return <h2 style={{ textAlign: 'center' }}>No data for {prefecture}</h2>
   }
 
   const populationGraphData = data.data[0].data
   return (
-    <div
-      className={styles.tooltip}
-      style={{
-        left: x,
-        top: y,
-      }}
-    >
+    <div className={styles.tooltip} style={style}>
       <BarChart name={prefecture} data={populationGraphData} />
     </div>
   )
