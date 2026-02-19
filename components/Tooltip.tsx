@@ -13,11 +13,16 @@ import { FC, useEffect, useState } from 'react'
 import { BarChart } from './Chart'
 ChartJS.register(CategoryScale, LinearScale, BarElement, Title, Tooltip, Legend)
 
-type GraphProps = { data: GraphData; prefecture: string; x: number; y: number }
+type GraphProps = {
+  data: GraphData | undefined
+  prefecture: string
+  x: number
+  y: number
+}
 
 export const Graph: FC<GraphProps> = ({ data, prefecture, x, y }) => {
   const [matches, setMatches] = useState(
-    window.matchMedia('(min-width: 800px)').matches
+    window.matchMedia('(min-width: 800px)').matches,
   )
 
   const style = matches
@@ -26,13 +31,14 @@ export const Graph: FC<GraphProps> = ({ data, prefecture, x, y }) => {
     : // Mobile screens
       { left: 5, top: 5, right: 5, width: 'auto' }
 
-  const populationGraphData = data.data[0].data
-
   useEffect(() => {
     window
       .matchMedia('(min-width: 800px)')
       .addEventListener('change', (e) => setMatches(e.matches))
   }, [])
+
+  if (!data?.data?.[0]) return null
+  const populationGraphData = data.data[0].data
 
   return (
     <div className={styles.tooltip} style={style}>

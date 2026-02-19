@@ -21,14 +21,20 @@ export const BarChart = ({ name, data }: ChartProps) => {
   }
 
   const options = {
+    color: '#ffffffcf',
     plugins: {
       title: {
         display: true,
         text: `Population per year`,
+        color: '#ffffffcf',
       },
       legend: {
         display: false,
       },
+    },
+    scales: {
+      x: { ticks: { color: '#ffffffcf' } },
+      y: { ticks: { color: '#ffffffcf' } },
     },
   }
 
