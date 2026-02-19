@@ -1,4 +1,4 @@
-import type { FillLayer } from 'react-map-gl'
+import type { FillLayer } from 'mapbox-gl'
 
 // Highlighted prefecture polygons
 export const PrefectureLayer: FillLayer = {
@@ -6,7 +6,17 @@ export const PrefectureLayer: FillLayer = {
   type: 'fill',
   paint: {
     'fill-outline-color': 'black',
-    'fill-color': '#FFA500',
-    'fill-opacity': 0.4,
+    'fill-color': [
+      'case',
+      ['boolean', ['feature-state', 'hover'], false],
+      '#CC7A00',
+      '#FFA500',
+    ],
+    'fill-opacity': [
+      'case',
+      ['boolean', ['feature-state', 'hover'], false],
+      0.7,
+      0.4,
+    ],
   },
 }

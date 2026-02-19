@@ -3,7 +3,7 @@
 A playground project to play around with next.js and mapbox/geojson.
 You can see a bar chart predicting the overall population per year for each prefecture.
 
-Data provided by [RESAS](https://resas.go.jp/#/13/13101).
+Data sourced from the RESAS API (now archived as a static asset).
 
 ## Getting Started
 
