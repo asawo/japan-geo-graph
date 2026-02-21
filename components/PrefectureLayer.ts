@@ -1,4 +1,4 @@
-import type { FillLayer } from 'mapbox-gl'
+import type { FillLayer, LineLayer } from 'mapbox-gl'
 
 // Highlighted prefecture polygons
 export const PrefectureLayer: FillLayer = {
@@ -17,6 +17,20 @@ export const PrefectureLayer: FillLayer = {
       ['boolean', ['feature-state', 'hover'], false],
       0.7,
       0.4,
+    ],
+  },
+}
+
+export const PrefectureLineLayer: LineLayer = {
+  id: 'prefectures-border',
+  type: 'line',
+  paint: {
+    'line-color': '#333333',
+    'line-width': [
+      'case',
+      ['boolean', ['feature-state', 'hover'], false],
+      1.5,
+      0,
     ],
   },
 }

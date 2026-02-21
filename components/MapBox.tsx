@@ -2,7 +2,7 @@ import 'mapbox-gl/dist/mapbox-gl.css'
 import styles from '../styles/MapBox.module.css'
 import { Graph } from './Tooltip'
 import { GeoJSON } from 'geojson'
-import { PrefectureLayer } from './PrefectureLayer'
+import { PrefectureLayer, PrefectureLineLayer } from './PrefectureLayer'
 import Prefectures from '../assets/jp_prefs.json'
 import { Map, Source, Layer, MapRef } from 'react-map-gl/mapbox'
 import type { MapboxGeoJSONFeature, MapLayerMouseEvent } from 'mapbox-gl'
@@ -92,6 +92,7 @@ export const MapBox: FC<MapProps> = ({ graphData }) => {
       >
         <Source id={SOURCE_ID} type="geojson" data={Prefectures as GeoJSON} promoteId="id">
           <Layer {...PrefectureLayer} />
+          <Layer {...PrefectureLineLayer} />
         </Source>
         {hoverInfo && hoverInfo.feature && hoverInfo.feature.properties && (
           <Graph
